@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           '/': (ctx) => const HomePage(), // Home page route
           '/login': (ctx) => const AuthPage(), // Login page route
           '/cart': (ctx) => CartPage(), // Cart page route
-          '/checkout': (ctx) => const CheckoutPage(), // Checkout page route
+          '/checkout': (ctx) =>CheckoutPage(), // Checkout page route
         },
       ),
     );

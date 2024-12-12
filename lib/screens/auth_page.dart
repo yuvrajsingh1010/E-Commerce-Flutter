@@ -89,6 +89,7 @@ class AuthPageState extends State<AuthPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(_isLogin ? 'Login' : 'Register'), // App bar title based on the current state
+        automaticallyImplyLeading: false, 
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
