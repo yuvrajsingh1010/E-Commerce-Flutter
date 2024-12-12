@@ -29,7 +29,7 @@ Ensure the following are installed on your system:
 -Open a terminal or command prompt and execute the following commands:
 
 
-`git clone <repository-url>`  
+`git clone git@github.com:yuvrajsingh1010/E-Commerce-Flutter.git`  
 `cd ecommerce_app`
 
 ## Install Dependencies
